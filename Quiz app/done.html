@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats</title>
+    <link rel="stylesheet" href="assets/done.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="head">
+        <a id=leaderboard href="/Quiz app/scores.html">View Highscores <i class="fas fa-hand-point-left fa-lg"></i></a>
+        <p class="time">Time:<span class="timer"></span></p>
+    </div>
+    <div class="card">
+        <div class="content">
+            <h1>All done!</h1>
+            <p>Your final score is <span class="timer"></span>.</p>
+            <form action="/Quiz app/scores.html">
+                <label for="initials">Enter initials:</label>
+                <input type="text" class="initials">
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="assets/done.js"></script>
+</body>
+</html>

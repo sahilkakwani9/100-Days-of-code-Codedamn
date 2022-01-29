@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+.head {
+    background-color: #218380;
+    color: white;
+    padding: 15px;
+}
+.head .time {
+    position: relative;
+    display: inline;
+    /* margin-right: auto; */
+    margin-left: 1030px;
+}
+
+.head a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+.box {
+    display: flex;
+    margin: 120px auto;
+    width: 75vw;
+    height: auto;
+    justify-content: center;
+    border-radius: 1.5rem;
+    border-color: white;
+    border-style: none;
+    box-shadow: 3px 3px 6px 4px rgba(214, 211, 211, 0.62);
+}
+
+.box .content {
+    padding: 4% 4%;
+    
+}
+
+.box h1 {
+    font-family: Inter;
+}
+
+.box button {
+    display: flex;
+    width: 60vw;
+    /* text-align: center; */
+    height: 8vh;
+    color: white;
+    background-color: #086663;
+    margin-bottom: 4px;
+    border-radius: 0.8rem;
+    font-size: 3vh;
+    align-items: center;
+    padding-left: 2vh;
+    /* text-align: left; */
+    border-style: none;
+}
