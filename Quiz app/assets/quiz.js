@@ -48,7 +48,7 @@ const constctQuiz = (optionNo) => {
   //changing the content inside the h1 using the questions array
   if (qno == 5){
     localStorage.setItem('timer', timer);
-    window.location="/Quiz app/done.html"
+    window.location="./done.html";
   }
   document.getElementsByClassName("center")[0].innerHTML =
     questions[qno].questionText;
@@ -80,7 +80,7 @@ const addTimer = () => {
     }
     else if(timer == 0){
       localStorage.setItem('timer', 0);
-      window.location="/Quiz app/done.html";
+      window.location="./done.html";
     }
   }, 1000);
 };

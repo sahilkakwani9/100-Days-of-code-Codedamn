@@ -17,7 +17,7 @@ body {
     position: relative;
     display: inline;
     /* margin-right: auto; */
-    margin-left: 1030px;
+    margin-left: 925px;
 }
 
 .card{
@@ -26,7 +26,7 @@ body {
     /* align-items: center;
     justify-content: center; */
     width: 35%;
-    height: 250px;
+    height: auto;
     border-radius: 1.5rem;
     border-color: white;
     border-style: solid;
@@ -52,4 +52,22 @@ body {
     color: #ffffff;
     border-radius: 0.4rem;
     border-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .head .time {
+        margin-left: 150px;
+    }
+    .card {
+        width: 80%;
+    }
+    .card .content {
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .card .content button{
+        margin-top: 10px;
+    }
 }

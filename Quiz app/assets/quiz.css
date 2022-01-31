@@ -2,15 +2,18 @@ body {
     margin: 0;
 }
 .head {
+    position: relative;
     background-color: #218380;
     color: white;
     padding: 15px;
 }
 .head .time {
-    position: relative;
+    position: absolute;
     display: inline;
+    margin-top: auto;
+    margin-left: 925px;
+
     /* margin-right: auto; */
-    margin-left: 1030px;
 }
 
 .head a {
@@ -20,7 +23,7 @@ body {
 
 .box {
     display: flex;
-    margin: 120px auto;
+    margin: 70px auto;
     width: 75vw;
     height: auto;
     justify-content: center;
@@ -53,4 +56,20 @@ body {
     padding-left: 2vh;
     /* text-align: left; */
     border-style: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .head .time {
+        margin-left: 170px;
+    }
+    .box {
+        width: 90%;
+    }
+    .box .content {
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
 }
