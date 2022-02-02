@@ -78,7 +78,7 @@ const addTimer = () => {
     if (timer != 0) {
       timer--;
     }
-    else if(timer == 0){
+    if(timer <= 0){
       localStorage.setItem('timer', 0);
       window.location="./done.html";
     }

@@ -17,7 +17,7 @@ body {
     position: relative;
     display: inline;
     /* margin-right: auto; */
-    margin-left: 925px;
+    margin-left: 82%;
 }
 
 .card{
@@ -57,7 +57,7 @@ body {
 @media only screen and (max-width: 600px) {
 
     .head .time {
-        margin-left: 150px;
+        margin-left: 40%;
     }
     .card {
         width: 80%;

@@ -22,7 +22,7 @@ h3 {
   position: relative;
   display: inline;
   /* margin-right: auto; */
-  margin-left: 930px;
+  margin-left: 83%;
 }
 
 .card {
@@ -64,6 +64,6 @@ h3 {
     margin-bottom: 15px;
   }
   .time {
-    margin-left: 150px;
+    margin-left: 40%;
   }
 }

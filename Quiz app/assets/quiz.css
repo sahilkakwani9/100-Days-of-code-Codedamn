@@ -11,7 +11,7 @@ body {
     position: absolute;
     display: inline;
     margin-top: auto;
-    margin-left: 925px;
+    margin-left: 81%;
 
     /* margin-right: auto; */
 }
@@ -62,7 +62,7 @@ body {
 @media only screen and (max-width: 600px) {
 
     .head .time {
-        margin-left: 170px;
+        margin-left: 40%;
     }
     .box {
         width: 90%;
