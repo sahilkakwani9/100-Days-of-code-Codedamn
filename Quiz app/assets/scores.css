@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.head{
+.head {
     background-color: #218380;
     color: white;
     padding: 15px;
@@ -13,13 +13,13 @@ body {
     text-decoration: inherit;
 }
 
-.time{
+.time {
     position: relative;
     display: inline;
     /* margin-right: auto; */
     margin-left: 83%;
 }
-.card{
+.card {
     display: flex;
     margin: 80px auto;
     /* align-items: center;
@@ -50,7 +50,7 @@ h1{
     font-family: Inter;
 }
 
-li{
+li {
     font-family: Inter;
 }
 

@@ -45,18 +45,22 @@ let optionNo = 1;
 let timer = 50;
 //Function to Create the whole quiz
 const constctQuiz = (optionNo) => {
-  //changing the content inside the h1 using the questions array
+  //if we reach the last question then store the timer and change page
   if (qno == 5){
     localStorage.setItem('timer', timer);
     window.location="./done.html";
   }
+
+  //changing the Question every time an option is clicked
   document.getElementsByClassName("center")[0].innerHTML =
     questions[qno].questionText;
+  
   //looping through the 4 option and changing its content dynamically.
   for (i = 0; i < 4; i++) {
     document.getElementsByClassName("choice")[i].innerHTML =
       questions[qno].options[i];
   }
+  //logic to check if the clicked option is correct or not
   if (qno >= 1 && qno <= 5) {
     if (optionNo == questions[qno - 1].answer[0]) {
       document.querySelector("h3").innerHTML = "Correct!";
@@ -70,8 +74,10 @@ const constctQuiz = (optionNo) => {
   //incrementing the question number
   qno++;
 };
+
 //function to add timer inside the header
 const addTimer = () => {
+  //changing the value inside timer dynamically every one second
   let ele = document.getElementsByClassName("timer");
   setInterval(function () {
     ele[0].innerHTML = timer;
@@ -85,12 +91,7 @@ const addTimer = () => {
   }, 1000);
 };
 
-//adding event listeners to all the buttons and calling constrctQuiz function
-// document.querySelectorAll('.choice').forEach(item => {
-//     item.addEventListener('click', constctQuiz(optionNo));
-//     optionNo++;
-//   })
-
+//adding event listeners to all the for options
 for (optionNo = 1; optionNo <= 4; optionNo++) {
   let button = document.querySelector("#btn" + optionNo);
   button.addEventListener("click", constctQuiz.bind(null, optionNo));
@@ -99,7 +100,3 @@ for (optionNo = 1; optionNo <= 4; optionNo++) {
 //calling these functions at the start of the webapp.
 addTimer();
 constctQuiz();
-
-// let btn = document.getElementById('btn1');
-// console.log(btn);
-// btn.addEventListener('click',addTimer);

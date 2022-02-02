@@ -12,14 +12,12 @@ body {
     display: inline;
     margin-top: auto;
     margin-left: 81%;
-
-    /* margin-right: auto; */
 }
 
 .head a {
     color: inherit;
     text-decoration: inherit;
-  }
+}
 
 .box {
     display: flex;
@@ -35,7 +33,6 @@ body {
 
 .box .content {
     padding: 4% 4%;
-    
 }
 
 .box h1 {
@@ -45,7 +42,6 @@ body {
 .box button {
     display: flex;
     width: 60vw;
-    /* text-align: center; */
     height: 8vh;
     color: white;
     background-color: #086663;
@@ -54,7 +50,6 @@ body {
     font-size: 3vh;
     align-items: center;
     padding-left: 2vh;
-    /* text-align: left; */
     border-style: none;
 }
 

@@ -28,8 +28,6 @@ h3 {
 .card {
   display: flex;
   margin: 80px auto;
-  /* align-items: center;
-    justify-content: center; */
   width: 50%;
   height: 250px;
   padding-right: 30px;

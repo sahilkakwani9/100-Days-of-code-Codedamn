@@ -1,3 +1,4 @@
+//global variables
 let scores = JSON.parse(localStorage.getItem('scores')) || [];
 let timer = localStorage.getItem('timer');
 const btnclicked = () =>{
