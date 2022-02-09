@@ -25,8 +25,8 @@ export default function LandingPage() {
               <li><a href="#support">Support</a></li>
               <li><a href="#blog">Blog</a></li>
               <li><a href="#careers">Careers</a></li>
+              <button className="login">Login</button>
             </div>
-            <button className="login">Login</button>
           </nav>
         </div>
         <div className="coverImages">
