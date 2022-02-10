@@ -15,6 +15,8 @@ export default function LandingPage() {
         <div className="navbar-container">
           <nav className="navbar">
             <a href="#landingPage" className="brand">
+              <div className="">
+              </div>
               <img className="dlogo" src={Logo} alt="Discord-logo" />
               <span className="textLogo">Discord</span>
             </a>
@@ -25,9 +27,9 @@ export default function LandingPage() {
               <li><a href="#support">Support</a></li>
               <li><a href="#blog">Blog</a></li>
               <li><a href="#careers">Careers</a></li>
-              <button className="login">Login</button>
             </div>
           </nav>
+          <button className="login">Login</button>
         </div>
         <div className="coverImages">
           <div className="left images">
