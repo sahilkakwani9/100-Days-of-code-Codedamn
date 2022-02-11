@@ -3,6 +3,39 @@
     position: relative;
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.cover .mid-content{
+    position: absolute;
+    top: 22.5vh;
+    left: 22vw;
+    /* display: flex; */
+    color: #ffffff;
+}
+
+.cover .mid-content .headline {
+    font-family: Ginto;
+    font-size: 250%;
+}
+.cover .mid-content .paragraph {
+    position: relative;
+    bottom: 2vh;
+}
+.cover .mid-content p {
+    font-family: Whitney;
+    font-size: 120%;
+    margin-top: -0.8vh;
+}
+
+.cover .mid-content .psecond {
+    position: relative;
+    left: -2vw;
+}
+
+.cover .mid-content .pthird {
+    position: relative;
+    left: 14vw;
+}
+
 .container .navbar {
     display: flex;
     margin-left: 3%;
@@ -11,7 +44,7 @@
     position: absolute;
     background-color: #404eed;
     color: #ffffff;
-    margin-top: 2%;
+    margin-top: 2.5%;
     width: 100%;
 }
 
@@ -53,27 +86,24 @@
 .dlogo {
     width: 50%;
     position: relative;
-    bottom: 30%;
+    bottom: 32%;
 
 }
 
-.navbar {
-
-}
 
 .list {
     display: flex;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 
 .login{
     position: absolute;
     left: 92%;
-    bottom: 40%;
+    bottom: 44%;
     background-color: #ffffff;
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
     /* display: inline-block; */
-    padding: 0.9% 1.2%;
+    padding: 0.9% 1.3%;
     /* margin-left: 90%; */
     border-radius: 18px;
     border-style: hidden;
@@ -90,7 +120,7 @@
 
 li {
     list-style-type: none;
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
 a {
@@ -102,4 +132,29 @@ a {
 @font-face {
     font-family: 'Whitney';
     src: local('Whitney'), url(../fonts/whitney-medium.otf) format('truetype');
-  }
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: local('Ginto'), url(../fonts/ABCGintoNord-Bold-Trial.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'GintoU';
+    src: local('GintoU'), url(../fonts/ABCGintoNord-Ultra-Trial.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'GintoR';
+    src: local('GintoR'), url(../fonts/ABCGintoNord-Regular-Trial.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'GintoM';
+    src: local('GintoM'), url(../fonts/ABCGintoNord-Medium-Trial.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'WhitneyL';
+    src: local('WhitneyL'), url(../fonts/whitney-light.otf) format('truetype');
+}

@@ -39,6 +39,18 @@ export default function LandingPage() {
             <img src={Rimage} alt="right-landing" />
           </div>
         </div>
+        <div className="mid-content">
+          <div className="text">
+            <div className="headline">
+              <h2>IMAGINE A PLACE...</h2>
+            </div>
+            <div className="paragraph">
+              <p className="pfirst">...where you can belong to a school club, a gaming group, or a worldwide art community. </p>
+              <p className="psecond">Where just you and a handful of friends can spend time together. A place that makes it easy</p>
+              <p className="pthird">to talk every day and hang out more often.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
