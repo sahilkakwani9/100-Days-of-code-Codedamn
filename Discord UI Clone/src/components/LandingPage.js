@@ -1,5 +1,9 @@
 import React from "react";
 import Logo from "../icons/discordLogo.svg";
+import Download from "../icons/download-icon.png"
+import '../../node_modules/font-awesome/css/font-awesome.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import Limage from "../icons/left_bg_landing_header.svg";
 import Rimage from "../icons/right_bg_landing_header.svg";
 import Mimage from "../icons/center_bg_landing_header.svg";
@@ -50,8 +54,14 @@ export default function LandingPage() {
               <p className="pthird">to talk every day and hang out more often.</p>
             </div>
           </div>
+          <div className="hero-btn">
+            <button className="download btn"><img src={Download} alt="" className="download-img"/> Download for Windows</button>
+            <button className="open btn">Open Discord in your browser</button>
+          </div>
         </div>
       </div>
+      <FontAwesomeIcon icon="fa-solid fa-arrow-down-to-bracket" />
+      <FontAwesomeIcon icon="faCoffee" />
     </div>
   );
 }

@@ -36,6 +36,23 @@
     left: 14vw;
 }
 
+.cover .mid-content .hero-btn {
+    margin-left: 8%;
+}
+.cover .mid-content .hero-btn .btn {
+    padding: 2.7% 7%;
+    border-radius: 80px;
+    border-style: none;
+}
+.cover .mid-content .hero-btn .open {
+    margin-left: 3%;
+}
+.cover .mid-content .hero-btn .download-img {
+    display: inline;
+    margin-top: 1%;
+    width: 8%;
+}
+
 .container .navbar {
     display: flex;
     margin-left: 3%;
