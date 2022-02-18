@@ -38,6 +38,7 @@
 
 .cover .mid-content .hero-btn {
     margin-left: 8%;
+    margin-top: -2%;
 }
 .cover .mid-content .hero-btn .btn {
     padding: 2.7% 7%;
@@ -46,6 +47,8 @@
 }
 .cover .mid-content .hero-btn .open {
     margin-left: 3%;
+    background-color: black;
+    color: #ffffff;
 }
 .cover .mid-content .hero-btn .download-img {
     display: inline;
