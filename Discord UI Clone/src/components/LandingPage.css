@@ -37,15 +37,16 @@
 }
 
 .cover .mid-content .hero-btn {
-    margin-left: 8%;
-    margin-top: -2%;
+    margin-left: 6%;
+    margin-top: -1%;
     
 }
 .cover .mid-content .hero-btn .btn {
-    padding: 2.7% 7%;
+    padding: 2.7% 5%;
     border-radius: 80px;
     border-style: none;
     font-family: Whitney;
+    font-size: large;
 }
 .cover .mid-content .hero-btn .open {
     margin-left: 3%;
@@ -53,6 +54,7 @@
     color: #ffffff;
     font-family: Whitney;
 }
+
 .cover .mid-content .hero-btn .download-img {
     display: inline;
     margin-top: 1%;
@@ -75,7 +77,7 @@
     width: 55%;
     position: absolute;
     left: -32%;
-    margin-top: 20.25%;
+    margin-top: 21.5%;
     overflow: hidden;
 }
 
@@ -85,15 +87,16 @@
     max-width: 21%;
     position: absolute;
     left: 79%;
-    margin-top: 20%;
+    margin-top: 20.8%;
     overflow: hidden;
 }
 
 .container .center {
     position: absolute;
-    margin-top: -1%;
+    margin-top: -0.5%;
     left: -51%;
     max-width: 151%;
+    /* max-height: 101vh; */
     overflow: hidden;
     background-color: #404eed;
     
