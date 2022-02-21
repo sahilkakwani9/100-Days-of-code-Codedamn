@@ -42,12 +42,15 @@
     
 }
 .cover .mid-content .hero-btn .btn {
-    padding: 2.7% 5%;
+    position: relative;
+    padding: 2.7% 7%;
     border-radius: 80px;
     border-style: none;
     font-family: Whitney;
     font-size: large;
+    
 }
+
 .cover .mid-content .hero-btn .open {
     margin-left: 3%;
     background-color: black;
@@ -56,9 +59,12 @@
 }
 
 .cover .mid-content .hero-btn .download-img {
-    display: inline;
-    margin-top: 1%;
-    width: 8%;
+    /* display: inline; */
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    /* margin-top: 2%; */
+    width: 1.5vw;
 }
 
 .container .navbar {

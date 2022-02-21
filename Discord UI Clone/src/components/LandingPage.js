@@ -55,7 +55,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="hero-btn">
-            <button className="download btn"><img src={Download} alt="" className="download-img"/> Download for Windows</button>
+            <button className="download btn"><img src={Download} alt="" className="download-img"/> <span className="btn-txt">Download for Windows</span> </button>
             <button className="open btn">Open Discord in your browser</button>
           </div>
         </div>
