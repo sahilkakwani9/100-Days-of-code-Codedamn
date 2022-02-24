@@ -2,6 +2,8 @@
 .cover {
     position: relative;
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .cover .mid-content{
@@ -43,7 +45,7 @@
 }
 .cover .mid-content .hero-btn .btn {
     position: relative;
-    padding: 2.7% 7%;
+    padding: 2.7% 6%;
     border-radius: 80px;
     border-style: none;
     font-family: Whitney;
@@ -51,18 +53,31 @@
     
 }
 
+.cover .mid-content .hero-btn .download {
+    padding-left: 9%;
+}
 .cover .mid-content .hero-btn .open {
     margin-left: 3%;
-    background-color: black;
+    background-color: #23272a;
     color: #ffffff;
     font-family: Whitney;
+}
+
+.cover .mid-content .hero-btn .download:hover {
+    color: #5865f2;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.14);
+}
+
+.cover .mid-content .hero-btn .open:hover {
+    background-color: #36393f;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.14);
 }
 
 .cover .mid-content .hero-btn .download-img {
     /* display: inline; */
     position: absolute;
-    top: 30%;
-    left: 8%;
+    top: 34%;
+    left: 12%;
     /* margin-top: 2%; */
     width: 1.5vw;
 }
@@ -128,6 +143,10 @@
     margin-left: 18%;
 }
 
+.list li:hover {
+    text-decoration: underline;
+}
+
 .login{
     position: absolute;
     left: 92%;
@@ -139,6 +158,12 @@
     /* margin-left: 90%; */
     border-radius: 18px;
     border-style: hidden;
+}
+
+.login:hover {
+    opacity: 1;
+    color: #5865f2;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.14);
 }
 
 .brand {
