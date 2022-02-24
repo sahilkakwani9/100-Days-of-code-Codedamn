@@ -1,12 +1,13 @@
 import React from "react";
 import Logo from "../icons/discordLogo.svg";
-import Download from "../icons/download-icon.png"
+import Download from "../icons/download-icon.png";
 import '../../node_modules/font-awesome/css/font-awesome.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import Limage from "../icons/left_bg_landing_header.svg";
 import Rimage from "../icons/right_bg_landing_header.svg";
 import Mimage from "../icons/center_bg_landing_header.svg";
+import Invite from "../icons/invite_only_landing.svg";
 import "./LandingPage.css";
 
 export default function LandingPage() {
@@ -60,8 +61,15 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-      <FontAwesomeIcon icon="fa-solid fa-arrow-down-to-bracket" />
-      <FontAwesomeIcon icon="faCoffee" />
+      <div className="Body">
+        <div className="invite">
+          <img src={Invite} alt="invite-img" className="invite-img"/>
+          <div className="invite-text">
+            <h2>Create an invite-only place where you belong</h2>
+            <p>Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
