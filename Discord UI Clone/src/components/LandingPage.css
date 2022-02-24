@@ -192,7 +192,21 @@ a {
     width: 55%;
     margin-left: 3%;
 }
-
+.Body .invite-text {
+    position: absolute;
+    width: 29%;
+    left: 68%;
+    top: 118%;
+}
+.Body .invite h2 {
+    font-size: 300%;
+    line-height: 1.2;
+}
+.Body .invite p {
+    font-family: WhitneyL;
+    font-size: 130%;
+    line-height: 1.5;
+}
 
 @font-face {
     font-family: 'Whitney';
