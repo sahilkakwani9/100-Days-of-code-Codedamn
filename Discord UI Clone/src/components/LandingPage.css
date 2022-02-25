@@ -203,6 +203,38 @@ a {
     line-height: 1.2;
 }
 .Body .invite p {
+    margin-top: -1%;
+    font-family: WhitneyL;
+    font-size: 130%;
+    line-height: 1.5;
+}
+
+.Body .easy {
+    margin-top: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    background-color: #f6f6f6;
+}
+.Body .easy-img {
+    width: 55%;
+    margin-left: 8%;
+}
+.Body .easy-text {
+    /* position: absolute;
+    width: 29%;
+    left: 68%;
+    top: 118%; */
+    margin-left: 4%;
+    margin-top: 3%;
+    width: 30%;
+}
+.Body .easy h2 {
+    font-size: 300%;
+    line-height: 1.2;
+}
+.Body .easy p {
+    margin-top: -1%;
     font-family: WhitneyL;
     font-size: 130%;
     line-height: 1.5;
