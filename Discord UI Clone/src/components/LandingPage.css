@@ -240,6 +240,33 @@ a {
     line-height: 1.5;
 }
 
+.Body .fandom {
+    margin-top: 10%;
+    display: flex;
+    padding-bottom: 10%;
+}
+.Body .fandom-img {
+    width: 55%;
+    margin-left: 3%;
+    /* margin-top: -2%; */
+}
+.Body .fandom-text {
+    /* position: absolute; */
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 9%;
+}
+.Body .fandom h2 {
+    font-size: 300%;
+    line-height: 1.2;
+}
+.Body .fandom p {
+    margin-top: -3%;
+    font-family: WhitneyL;
+    font-size: 130%;
+    line-height: 1.5;
+}
+
 @font-face {
     font-family: 'Whitney';
     src: local('Whitney'), url(../fonts/whitney-medium.otf) format('truetype');

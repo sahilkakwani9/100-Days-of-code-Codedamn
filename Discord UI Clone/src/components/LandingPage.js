@@ -9,6 +9,7 @@ import Rimage from "../icons/right_bg_landing_header.svg";
 import Mimage from "../icons/center_bg_landing_header.svg";
 import Invite from "../icons/invite_only_landing.svg";
 import Easy from "../icons/hanging_out_easy_landing.svg"
+import Fandom from "../icons/fandom_landing.svg";
 import "./LandingPage.css";
 
 export default function LandingPage() {
@@ -76,6 +77,13 @@ export default function LandingPage() {
             <p>Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
           </div>
           <img src={Easy} alt="easy-img" className="easy-img"/>
+        </div>
+        <div className="fandom">
+          <img src={Fandom} alt="fandom-img" className="fandom-img"/>
+          <div className="fandom-text">
+            <h2>From few to a fandom</h2>
+            <p>Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
+          </div>
         </div>
       </div>
     </div>
