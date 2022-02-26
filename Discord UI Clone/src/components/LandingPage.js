@@ -10,6 +10,8 @@ import Mimage from "../icons/center_bg_landing_header.svg";
 import Invite from "../icons/invite_only_landing.svg";
 import Easy from "../icons/hanging_out_easy_landing.svg"
 import Fandom from "../icons/fandom_landing.svg";
+import Chillin from "../icons/just_chiling_landing.svg"
+import ChillinStars from "../icons/tiny_stars_landing.svg"
 import "./LandingPage.css";
 
 export default function LandingPage() {
@@ -83,6 +85,20 @@ export default function LandingPage() {
           <div className="fandom-text">
             <h2>From few to a fandom</h2>
             <p>Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
+          </div>
+        </div>
+        <div className="chillin">
+          <div className="chillin-text">
+            <h2>RELIABLE TECH FOR STAYING CLOSE</h2>
+            <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+          </div>
+          <img src={Chillin} alt="chillin-img" className="chillin-img" />
+          <div className="chillin-foot">
+            <div className="chillin-foot-img">
+              <img src={ChillinStars} alt="chillin-foot-img"/>
+            </div>
+            <h3>Ready to start your journey?</h3>
+            <button className="download btn"><img src={Download} alt="" className="download-img"/> <span className="btn-txt">Download for Windows</span> </button>
           </div>
         </div>
       </div>

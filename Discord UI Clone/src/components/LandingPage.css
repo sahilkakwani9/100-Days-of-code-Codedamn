@@ -267,6 +267,65 @@ a {
     line-height: 1.5;
 }
 
+.Body .chillin {
+    padding-top: 5%;;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+.Body .chillin-img {
+    margin-left: 2%;
+    width: 95%;
+}
+.Body .chillin-text {
+}
+.Body .chillin h2 {
+    font-size: 265%;
+    font-family: Ginto;
+}
+.Body .chillin p {
+    margin-top: -1%;
+    font-family: WhitneyL;
+    font-size: 125%;
+    width: 75%;
+    margin-left: 12%;
+}
+.Body .chillin .chillin-foot {
+    position: relative;
+    margin-top: 8%;
+    padding-bottom: 10%;
+}
+
+.Body .chillin .chillin-foot .chillin-foot-img img {
+    position: absolute;
+    width: 42%;
+    left: 30%;
+    top: -20%;
+}
+
+.Body .chillin .chillin-foot h3 {
+    font-size: 200%;
+}
+
+.Body .chillin .chillin-foot .download {
+    position: relative;
+    border-radius: 80px;
+    padding: 1.3%;
+    padding-right: 3%;
+    padding-left: 5%;
+    border-style: none;
+    font-family: Whitney;
+    font-size: larger;
+    background-color: #5865f2;
+    color: #ffffff;
+}
+
+.Body .chillin .chillin-foot .download-img {
+    width: 1.5vw;
+    position: absolute;
+    left: 12%;
+    top: 30%;
+}
+
 @font-face {
     font-family: 'Whitney';
     src: local('Whitney'), url(../fonts/whitney-medium.otf) format('truetype');
