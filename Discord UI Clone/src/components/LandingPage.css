@@ -326,6 +326,10 @@ a {
     top: 30%;
 }
 
+.footer .main ul ul{
+    display: flex;
+}
+
 @font-face {
     font-family: 'Whitney';
     src: local('Whitney'), url(../fonts/whitney-medium.otf) format('truetype');
