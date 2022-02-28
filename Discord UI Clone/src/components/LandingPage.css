@@ -326,8 +326,21 @@ a {
     top: 30%;
 }
 
-.footer .main ul ul{
+.footer .main .lang {
     display: flex;
+}
+
+.footer .main .flag {
+    width: 2.5%;
+}
+
+.footer .main ul .socials{
+    display: inline-flex;
+    margin-left: -4%;
+}
+
+.footer .main ul ul li{
+    margin-right: 20%;
 }
 
 @font-face {
