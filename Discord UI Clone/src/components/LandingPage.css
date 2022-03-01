@@ -325,22 +325,58 @@ a {
     left: 12%;
     top: 30%;
 }
-
+.footer {
+    padding-top: 0.5%;
+    background-color: #23272a;
+}
+.footer .main {
+    display: flex;
+    margin-top: 4%;
+}
+.footer .main h3 {
+    font-size: 200%;
+    font-family: Ginto;
+    color: #5865f2;
+    line-height: 100%;
+    margin-top: 7%;
+}
 .footer .main .lang {
     display: flex;
+    color: #ffffff;
+    margin-top: -10%;
 }
 
 .footer .main .flag {
-    width: 2.5%;
+    width: 8%;
+    height: 8%;
+    margin-top: 7%;
+    margin-right: 4%;
 }
 
 .footer .main ul .socials{
     display: inline-flex;
-    margin-left: -4%;
+    margin-left: -15%;
+    margin-top: 2%;
 }
 
 .footer .main ul ul li{
-    margin-right: 20%;
+    margin-right: 30%;
+}
+
+.footer .main .foot-list {
+    color: #ffffff;
+    display: flex;
+    line-height: 200%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.footer .main .foot-list ul {
+    margin-right: 15%;
+}
+
+.footer .main .Top-foot {
+    color: #5865f2;
 }
 
 @font-face {
