@@ -29,7 +29,6 @@ export default function LandingPage() {
         <div className="navbar-container">
           <nav className="navbar">
             <a href="#landingPage" className="brand">
-              <div className=""></div>
               <img className="dlogo" src={Logo} alt="Discord-logo" />
               <span className="textLogo">Discord</span>
             </a>
@@ -222,6 +221,14 @@ export default function LandingPage() {
               <li>Moderation</li>
             </ul>
           </div>
+        </div>
+        <hr className="rule" />
+        <div className="foot-end">
+          <a href="#landingPage" className="brand">
+            <img className="dlogo" src={Logo} alt="Discord-logo" />
+            <span className="textLogo">Discord</span>
+          </a>
+          <button className="login">Sign up</button>
         </div>
       </div>
     </div>

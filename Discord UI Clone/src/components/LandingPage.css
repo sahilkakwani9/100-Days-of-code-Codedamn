@@ -328,6 +328,7 @@ a {
 .footer {
     padding-top: 0.5%;
     background-color: #23272a;
+    /* padding-bottom: 5%; */
 }
 .footer .main {
     display: flex;
@@ -377,6 +378,12 @@ a {
 
 .footer .main .Top-foot {
     color: #5865f2;
+}
+
+.footer .rule {
+    border: 1px solid #5865f2;
+    background-color: #5865f2;
+    width: 95%;
 }
 
 @font-face {
