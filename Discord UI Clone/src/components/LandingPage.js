@@ -224,11 +224,11 @@ export default function LandingPage() {
         </div>
         <hr className="rule" />
         <div className="foot-end">
-          <a href="#landingPage" className="brand">
-            <img className="dlogo" src={Logo} alt="Discord-logo" />
-            <span className="textLogo">Discord</span>
+          <a href="#landingPage" className="foot-brand">
+            <img className="dlogof" src='discordLogob.svg'alt="Discord-logo" />
+            <span className="textLogof">Discord</span>
           </a>
-          <button className="login">Sign up</button>
+          <button className="signup">Sign up</button>
         </div>
       </div>
     </div>

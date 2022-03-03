@@ -276,8 +276,7 @@ a {
     margin-left: 2%;
     width: 95%;
 }
-.Body .chillin-text {
-}
+
 .Body .chillin h2 {
     font-size: 265%;
     font-family: Ginto;
@@ -328,6 +327,7 @@ a {
 .footer {
     padding-top: 0.5%;
     background-color: #23272a;
+    padding-bottom: 5%;
     /* padding-bottom: 5%; */
 }
 .footer .main {
@@ -381,9 +381,45 @@ a {
 }
 
 .footer .rule {
-    border: 1px solid #5865f2;
+    border: 0.9px solid #5865f2;
     background-color: #5865f2;
-    width: 95%;
+    width: 94%;
+    margin-top: 1%;
+}
+
+.footer .foot-end {
+    /* display: flex; */
+    position: relative;
+}
+.footer .foot-brand {
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.footer .dlogof{
+    width: 4.5%;
+    fill: #23272a;
+}
+
+.footer .textLogof{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 1.4%;
+    font-size: 110%;
+}
+
+.footer .signup {
+    position: absolute;
+    bottom: 20%;
+    right: 3%;
+    background-color: #5865f2;
+    color: #f6f6f6;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* display: inline-block; */
+    padding: 0.9% 1.3%;
+    /* margin-left: 90%; */
+    border-radius: 18px;
+    border-style: hidden;
 }
 
 @font-face {
