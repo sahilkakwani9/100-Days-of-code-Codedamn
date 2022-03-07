@@ -189,36 +189,36 @@ export default function LandingPage() {
           <div className="foot-list">
             <ul>
               <li className="Top-foot">Product</li>
-              <li>Download</li>
-              <li>Nitro</li>
-              <li>Status</li>
+              <li className="list">Download</li>
+              <li className="list">Nitro</li>
+              <li className="list">Status</li>
             </ul>
             <ul>
               <li className="Top-foot">Company</li>
-              <li>About</li>
-              <li>Jobs</li>
-              <li>Branding</li>
-              <li>Newsroom</li>
+              <li className="list">About</li>
+              <li className="list">Jobs</li>
+              <li className="list">Branding</li>
+              <li className="list">Newsroom</li>
             </ul>
             <ul>
               <li className="Top-foot">Resources</li>
-              <li>College</li>
-              <li>Support</li>
-              <li>Safety</li>
-              <li>Blog</li>
-              <li>Feedback</li>
-              <li>Developers</li>
-              <li>StreamKit</li>
+              <li className="list">College</li>
+              <li className="list">Support</li>
+              <li className="list">Safety</li>
+              <li className="list">Blog</li>
+              <li className="list">Feedback</li>
+              <li className="list">Developers</li>
+              <li className="list">StreamKit</li>
             </ul>
             <ul>
               <li className="Top-foot">Policies</li>
-              <li>Terms</li>
-              <li>Privacy</li>
-              <li>Cookie Settings</li>
-              <li>Guidelines</li>
-              <li>Acknowledgements</li>
-              <li>Licenses</li>
-              <li>Moderation</li>
+              <li className="list">Terms</li>
+              <li className="list">Privacy</li>
+              <li className="list">Cookie Settings</li>
+              <li className="list">Guidelines</li>
+              <li className="list">Acknowledgements</li>
+              <li className="list">Licenses</li>
+              <li className="list">Moderation</li>
             </ul>
           </div>
         </div>

@@ -138,7 +138,7 @@
 }
 
 
-.list {
+.navbar .list {
     display: flex;
     margin-left: 18%;
 }
@@ -364,6 +364,7 @@ a {
     margin-right: 30%;
 }
 
+
 .footer .main .foot-list {
     color: #ffffff;
     display: flex;
@@ -376,9 +377,15 @@ a {
     margin-right: 15%;
 }
 
+
+.footer .main .foot-list .list:hover {
+    text-decoration: underline;
+}
+
 .footer .main .Top-foot {
     color: #5865f2;
 }
+
 
 .footer .rule {
     border: 0.9px solid #5865f2;
