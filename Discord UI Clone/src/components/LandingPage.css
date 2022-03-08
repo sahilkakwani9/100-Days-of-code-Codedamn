@@ -6,6 +6,10 @@
     overflow: hidden;
 }
 
+.phoneh1 {
+    display: none;
+}
+
 .cover .mid-content{
     position: absolute;
     top: 22.5vh;
@@ -99,7 +103,7 @@
     position: absolute;
     left: -32%;
     margin-top: 21.5%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .container .coverImages .right {
@@ -109,7 +113,7 @@
     position: absolute;
     left: 79%;
     margin-top: 20.8%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .container .center {
@@ -118,16 +122,12 @@
     left: -51%;
     max-width: 151%;
     /* max-height: 101vh; */
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #404eed;
     
 }
 
-.container .center img {
-    /* position: absolute; */
-    /* margin-top: -2%; */
-    /* background-color: #404eed; */
-}
+
 
 
 .dlogo {
@@ -427,6 +427,22 @@ a {
     /* margin-left: 90%; */
     border-radius: 18px;
     border-style: hidden;
+}
+ 
+/*Responsive CSS */
+@media only screen and (max-width: 700px) {
+    .phoneh1 {
+        display: block;
+    }
+    .cover {
+        display: none;
+    }
+    .Body {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
 }
 
 @font-face {

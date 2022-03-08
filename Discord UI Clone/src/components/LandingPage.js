@@ -22,6 +22,7 @@ import "./LandingPage.css";
 export default function LandingPage() {
   return (
     <div className="container">
+      <h1 className="phoneh1">Responsive Design in Construction.</h1>
       <div className="cover">
         <div className="center images">
           <img src={Mimage} alt="center-landing" />
