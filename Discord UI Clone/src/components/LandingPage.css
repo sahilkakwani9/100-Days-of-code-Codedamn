@@ -1,9 +1,12 @@
-
+.container {
+    overflow-y: hidden;
+}
 .cover {
     position: relative;
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
     height: 100vh;
     overflow: hidden;
+    /* overflow-y: hidden; */
 }
 
 .phoneh1 {
@@ -19,7 +22,7 @@
 }
 
 .cover .mid-content .headline {
-    font-family: Ginto;
+    font-family: Ginto; 
     font-size: 250%;
 }
 .cover .mid-content .paragraph {
@@ -102,7 +105,10 @@
     width: 55%;
     position: absolute;
     left: -32%;
+    max-height: 57vh;
+    overflow: hidden;
     margin-top: 21.5%;
+    background-color: red;
     /* overflow: hidden; */
 }
 
