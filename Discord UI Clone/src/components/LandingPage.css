@@ -450,14 +450,18 @@ a {
     }
     .cover {
         background-color: #404eed;
+        min-height: 80vh;
     }
 
     .cover .center{
         display: none;
     }
 
-    .cover .left {
-        bottom: 5%;
+    .cover .coverImages .left {
+        left: -20%;
+        top: 60%;
+        width: 100vw;
+        
     }
 
     .cover .right {
@@ -495,7 +499,27 @@ a {
 
     .cover .mid-content .paragraph-mob {
         display: block;
-        margin-top: 10%;  
+        margin-top: 10%;
+        width: 90%;
+        font-family: WhitneyL;
+    }
+
+    .cover .mid-content .hero-btn {
+        margin-top: 7%;
+    }
+    .cover .mid-content .hero-btn .download-img {
+        width: 6vw;
+        left: 8%;
+        top: 30%;
+    }
+    .cover .mid-content .hero-btn .download {
+        padding: 5% 10%;
+        padding-left: 15%;
+    }
+    .cover .mid-content .hero-btn .open {
+        margin-top: 7%;
+        padding: 5% 10%;
+        right: 4%;
     }
 
     .Body {
