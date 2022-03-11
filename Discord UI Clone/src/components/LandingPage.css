@@ -1,5 +1,5 @@
 .container {
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 .cover {
     position: relative;
@@ -72,7 +72,7 @@
 
 .cover .mid-content .hero-btn .download:hover {
     color: #5865f2;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.14);
+    box-shadow: 10px 10 px 10px rgba(0, 0, 0, 0.14);
 }
 
 .cover .mid-content .hero-btn .open:hover {
@@ -102,10 +102,12 @@
 }
 
 .container .coverImages .left {
-    width: 55%;
+    width: 55vw;
+    z-index: 1;
+    max-height: 342px;
     position: absolute;
     left: -32%;
-    max-height: 57vh;
+    /* max-height: 50vh; */
     overflow: hidden;
     margin-top: 21.5%;
     /* overflow: hidden; */
@@ -114,7 +116,7 @@
 .container .coverImages .right {
     /* width: 50%; */
     /* border: 10px solid black; */
-    max-width: 21%;
+    max-width: 21vw;
     position: absolute;
     left: 79%;
     margin-top: 20.8%;
@@ -123,9 +125,11 @@
 
 .container .center {
     position: absolute;
+    
     margin-top: -0.5%;
     left: -51%;
     max-width: 151%;
+    min-height: 100vh;
     /* max-height: 101vh; */
     /* overflow: hidden; */
     background-color: #404eed;
