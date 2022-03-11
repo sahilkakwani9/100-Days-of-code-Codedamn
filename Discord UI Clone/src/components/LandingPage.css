@@ -29,6 +29,10 @@
     position: relative;
     bottom: 2vh;
 }
+
+.cover .mid-content .paragraph-mob {
+    display: none;
+}
 .cover .mid-content p {
     font-family: Whitney;
     font-size: 120%;
@@ -452,6 +456,10 @@ a {
         display: none;
     }
 
+    .cover .left {
+        bottom: 5%;
+    }
+
     .cover .right {
         display: none;
     }
@@ -472,7 +480,23 @@ a {
         display: none;
     }
 
-    .cover 
+    .cover .mid-content {
+        left: 5%;
+        top: 15%;
+    }
+
+    .cover .mid-content .headline {
+        font-size: 104%;
+    }
+
+    .cover .mid-content .paragraph {
+        display: none;
+    }
+
+    .cover .mid-content .paragraph-mob {
+        display: block;
+        margin-top: 10%;  
+    }
 
     .Body {
         display: none;
