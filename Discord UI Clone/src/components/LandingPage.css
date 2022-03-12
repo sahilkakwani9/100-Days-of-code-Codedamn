@@ -533,13 +533,14 @@ a {
         display: block;
         text-align: center;
         margin-top: 20%;
+        padding-bottom: 5%;
     }
     .Body .invite .invite-img {
         width: 80%;
     }
     .Body .invite .invite-text {
         text-align: left;
-        margin-top: -10%;
+        /* margin-top: -10%; */
         margin-left: 10%;
         width: 80%;
         left: 0;
