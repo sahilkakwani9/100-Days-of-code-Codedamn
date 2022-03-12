@@ -233,6 +233,9 @@ a {
     width: 55%;
     margin-left: 8%;
 }
+.Body .easy-img-mob {
+    display: none;
+}
 .Body .easy-text {
     /* position: absolute;
     width: 29%;
@@ -523,6 +526,71 @@ a {
     }
 
     .Body {
+        display: block;
+    }
+
+    .Body .invite {
+        display: block;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .Body .invite .invite-img {
+        width: 80%;
+    }
+    .Body .invite .invite-text {
+        text-align: left;
+        margin-top: -10%;
+        margin-left: 10%;
+        width: 80%;
+        left: 0;
+        font-size: 40%;
+    }
+    .Body .invite .invite-text p {
+        font-size: 200%;
+    }
+    .Body .easy {
+        display: Block;
+        margin-top: 45%;
+        padding-top: 20%;
+    }
+    .Body .easy .easy-img {
+        display: none;
+    }
+    .Body .easy .easy-img-mob {
+        display: block;
+        width: 80%;
+        margin-left: 5%;
+    }
+    .Body .easy .easy-text {
+        font-size: 40%;
+        width: 80%;
+        margin-left: 5%;
+    }
+    .Body .easy .easy-text p{
+        font-size: 200%;
+    }
+
+    .Body .fandom {
+        display: block;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .Body .fandom .fandom-img {
+        width: 80%;
+    }
+    .Body .fandom .fandom-text {
+        margin-top: 5%;
+        width: 80%;
+        font-size: 40%;
+        text-align: left;
+    }
+
+    .Body .fandom .fandom-text p {
+        font-size: 200%;
+        margin-top: 8%;
+    }
+
+    .Body .chillin {
         display: none;
     }
     .footer {
