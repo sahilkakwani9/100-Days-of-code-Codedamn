@@ -156,39 +156,43 @@ export default function LandingPage() {
             </li>
           </ul>
           <div className="foot-list">
-            <ul>
-              <li className="Top-foot">Product</li>
-              <li className="list">Download</li>
-              <li className="list">Nitro</li>
-              <li className="list">Status</li>
-            </ul>
-            <ul>
-              <li className="Top-foot">Company</li>
-              <li className="list">About</li>
-              <li className="list">Jobs</li>
-              <li className="list">Branding</li>
-              <li className="list">Newsroom</li>
-            </ul>
-            <ul>
-              <li className="Top-foot">Resources</li>
-              <li className="list">College</li>
-              <li className="list">Support</li>
-              <li className="list">Safety</li>
-              <li className="list">Blog</li>
-              <li className="list">Feedback</li>
-              <li className="list">Developers</li>
-              <li className="list">StreamKit</li>
-            </ul>
-            <ul>
-              <li className="Top-foot">Policies</li>
-              <li className="list">Terms</li>
-              <li className="list">Privacy</li>
-              <li className="list">Cookie Settings</li>
-              <li className="list">Guidelines</li>
-              <li className="list">Acknowledgements</li>
-              <li className="list">Licenses</li>
-              <li className="list">Moderation</li>
-            </ul>
+            <div className="mob-list">
+              <ul>
+                <li className="Top-foot">Product</li>
+                <li className="list">Download</li>
+                <li className="list">Nitro</li>
+                <li className="list">Status</li>
+              </ul>
+              <ul>
+                <li className="Top-foot">Company</li>
+                <li className="list">About</li>
+                <li className="list">Jobs</li>
+                <li className="list">Branding</li>
+                <li className="list">Newsroom</li>
+              </ul>
+            </div>
+            <div className="mob-list">
+              <ul>
+                <li className="Top-foot">Resources</li>
+                <li className="list">College</li>
+                <li className="list">Support</li>
+                <li className="list">Safety</li>
+                <li className="list">Blog</li>
+                <li className="list">Feedback</li>
+                <li className="list">Developers</li>
+                <li className="list">StreamKit</li>
+              </ul>
+              <ul>
+                <li className="Top-foot">Policies</li>
+                <li className="list">Terms</li>
+                <li className="list">Privacy</li>
+                <li className="list">Cookie Settings</li>
+                <li className="list">Guidelines</li>
+                <li className="list">Acknowledgements</li>
+                <li className="list">Licenses</li>
+                <li className="list">Moderation</li>
+              </ul>
+            </div>
           </div>
         </div>
         <hr className="rule" />
