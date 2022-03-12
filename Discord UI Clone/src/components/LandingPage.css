@@ -532,8 +532,8 @@ a {
     .Body .invite {
         display: block;
         text-align: center;
-        margin-top: 25%;
-        padding-bottom: 5%;
+        margin-top: 20%;
+        padding-bottom: 10%;
     }
     .Body .invite .invite-img {
         width: 80%;
@@ -542,6 +542,7 @@ a {
         text-align: left;
         /* margin-top: -10%; */
         margin-left: 10%;
+        margin-top: 10%;
         width: 80%;
         left: 0;
         font-size: 40%;
