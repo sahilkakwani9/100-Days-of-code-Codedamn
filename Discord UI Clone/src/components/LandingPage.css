@@ -449,7 +449,7 @@ a {
     border-radius: 18px;
     border-style: hidden;
 }
- 
+
 /*Responsive CSS */
 @media only screen and (max-width: 700px) {
     .container{
@@ -458,7 +458,7 @@ a {
     }
     .cover {
         background-color: #404eed;
-        min-height: 80vh;
+        /* min-height: 90vh; */
     }
 
     .cover .center{
@@ -467,8 +467,9 @@ a {
 
     .cover .coverImages .left {
         left: -20%;
-        top: 60%;
-        width: 100vw;
+        top: 65%;
+        width: 110%;
+        height: auto;
         
     }
 
@@ -494,7 +495,6 @@ a {
 
     .cover .mid-content {
         left: 5%;
-        top: 15%;
     }
 
     .cover .mid-content .headline {
@@ -513,7 +513,7 @@ a {
     }
 
     .cover .mid-content .hero-btn {
-        margin-top: 7%;
+        margin-top: 10%;
     }
     .cover .mid-content .hero-btn .download-img {
         width: 6vw;
