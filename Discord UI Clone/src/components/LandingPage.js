@@ -1,6 +1,7 @@
 import React from "react";
 import '../../node_modules/font-awesome/css/font-awesome.css';
 import "./LandingPage.css";
+import { Link } from "react-router-dom";
 
 export default function LandingPage() {
   return (
@@ -24,7 +25,7 @@ export default function LandingPage() {
               <li><a href="#careers">Careers</a></li>
             </div>
           </nav>
-          <button className="login">Login</button>
+          <button className="login"><Link to="/login" className="login-l">Login</Link></button>
         </div>
         <div className="coverImages">
           <div className="left images">
